@@ -21,23 +21,25 @@ switch(true){
     nivelXp = "Ouro"
     break;
 
-    case( nivelXp >=7001 && nivelXp <=8000):
+    case ( nivelXp >=7001 && nivelXp <=8000):
     nivelXp ="Platina"
     break; 
 
-    case( nivelXp >=8001 && nivelXp <=9000):
+    case ( nivelXp >=8001 && nivelXp <=9000):
     nivelXp ="Ascendente"
     break; 
 
-    case( nivelXp >=9001 && nivelXp <=10000):
+    case ( nivelXp >=9001 && nivelXp <=10000):
     nivelXp ="Imortal"
     break; 
 
-    case( nivelXp >=10001 ):
+    case ( nivelXp >=10001 ):
     nivelXp ="Radiante"
     break; 
+
     default:
     nivelXp = "Não existente"
+    break; 
 
 };
 
